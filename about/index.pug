@@ -1,0 +1,131 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='msapplication-TileColor' content='#dbd9d9')
+  meta(name='theme-color' content='#ffffff')
+  link(rel='stylesheet' href='bootstrap/bootstrap-grid.css')
+  link(rel='stylesheet' href='bootstrap/bootstrap-reboot.css')
+  link(rel='stylesheet' href='bootstrap/bootstrap.css')
+  link(rel='stylesheet' href='css/style.css')
+  link(rel='stylesheet' href='css/dark-mode.css')
+  link(href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:wght@400;700&family=Questrial&display=swap" rel="stylesheet")
+  link(rel='apple-touch-icon' sizes='180x180' href='favicon/apple-touch-icon.png')
+  link(rel='icon' type='image/png' sizes='32x32' href='favicon/favicon-32x32.png')
+  link(rel='icon' type='image/png' sizes='16x16' href='favicon/favicon-16x16.png')
+  link(rel='shortcut-icon' type='image/png' sizes='16x16' href='favicon/favicon.ico')
+  link(rel='manifest' href='favicon/site.webmanifest')
+  link(rel='mask-icon' href='favicon/safari-pinned-tab.svg' color='#dbd9d9')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  title About | YUAN HOU 
+head
+
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top#nnav
+  .container
+    a.navbar-brand(href='https://yuanhhou.com')
+      h4#title Yuan Hou
+
+    .custom-control.custom-switch.sun.sticky-top
+      label.switch(for='darkSwitch')
+        input#darkSwitch.danger.custom-control-input(type='checkbox')
+        span.slider.round
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarResponsive.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item
+          a.nav-link(href='https://yuanhhou.com/ui&ux')
+            h5 UI/UX 
+
+        li.nav-item
+          a.nav-link(href='https://yuanhhou.com/graphic&3d')
+            h5 Graphic/3D 
+
+        li.nav-item
+          a.nav-link(href='https://yuanhhou.com/game&interaction')
+            h5 Game/Interaction 
+
+        li.nav-item
+          a.nav-link(href='https://yuanhhou.com/video&sound')
+            h5 Video/Sound 
+
+        li.nav-item
+          a.nav-link(href='https://yuanhhou.com/about')
+            h5 About 
+ 
+
+            
+.container.first
+  .text-center 
+    img#profile(src = 'img/profile.webp')
+  p
+    | Yuan Hou is a results-oriented designer pursuing The Master of Interaction Design at The University of Queensland in 
+    | Brisbane, Australia. Specialises in HCI and UX design to bring the better usability and accessibility to the
+    | product. Solid background in user interface software and web design framework such as Figma, Protopie,
+    | Adobe Suite and Bootstrap. Experiences in motion graphic, 3D modelling, and interaction design such as
+    | Arduino, Adobe After Effects and Premiere Pro, Cinema 4D, and Unity. 
+  .button.text-center
+    a(href='mailto:k619tw@icloud.com')
+      svg#mail(width="61" height="50" viewBox="0 0 61 50" fill="none" xmlns="http://www.w3.org/2000/svg")
+        path(d="M54.9 0H6.1C2.745 0 0.0305 2.8125 0.0305 6.25L0 43.75C0 47.1875 2.745 50 6.1 50H54.9C58.255 50 61 47.1875 61 43.75V6.25C61 2.8125 58.255 0 54.9 0ZM54.9 43.75H6.1V12.5L30.5 28.125L54.9 12.5V43.75ZM30.5 21.875L6.1 6.25H54.9L30.5 21.875Z" )
+
+
+    a(href='https://www.linkedin.com/in/yuan-hou-951a03162/')
+      svg#lin(width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg")
+        path(fill-rule="evenodd" clip-rule="evenodd" d="M5.02362 61H55.9764C58.7498 61 61 58.7505 61 55.9764V5.02363C61 2.2502 58.7505 0 55.9764 0H5.02362C2.25019 0 0 2.24952 0 5.02363V55.9764C0 58.7498 2.24951 61 5.02362 61ZM23.3234 23.3241H31.8457V27.6137C32.9884 25.3229 36.3163 22.8754 40.7177 22.8754C49.1532 22.8754 52.0297 26.6879 52.0297 35.7429V52.0297H43.0594V37.6481C43.0594 32.8827 42.1282 30.276 38.6498 30.276C33.9475 30.276 32.2951 33.8499 32.2951 37.6481V52.0297H23.3248V23.3241H23.3234ZM8.97096 52.0297H17.9413V23.3241H8.97096V52.0297ZM18.9281 13.4565C18.9281 16.478 16.4773 18.9288 13.4558 18.9288C10.4343 18.9288 7.98345 16.478 7.98345 13.4565C7.98345 10.4336 10.4343 7.98414 13.4558 7.98414C16.4773 7.98414 18.9281 10.4329 18.9281 13.4565Z")
+
+    a(href='https://www.instagram.com/yuanhhou/')
+      svg#ins(width='200' height='200' viewbox='0 0 200 200' fill='none' xmlns='http://www.w3.org/2000/svg')
+        path#ins1(d='M99.9815 0.301025C72.9119 0.301025 69.5147 0.41939 58.8829 0.903221C48.2718 1.38913 41.0289 3.06904 34.6913 5.53388C28.1357 8.07971 22.5747 11.4852 17.0346 17.0275C11.4902 22.5677 8.08471 28.1286 5.53058 34.6821C3.05951 41.0218 1.37752 48.2668 0.899921 58.8737C0.424396 69.5055 0.299805 72.9048 0.299805 99.9745C0.299805 127.044 0.420245 130.431 0.902 141.063C1.38998 151.674 3.0699 158.917 5.53266 165.254C8.08056 171.81 11.4861 177.371 17.0283 182.911C22.5664 188.455 28.1274 191.869 34.6788 194.415C41.0206 196.88 48.2656 198.56 58.8746 199.046C69.5064 199.53 72.9015 199.648 99.9691 199.648C127.041 199.648 130.428 199.53 141.059 199.046C151.671 198.56 158.922 196.88 165.264 194.415C171.817 191.869 177.37 188.455 182.908 182.911C188.452 177.371 191.858 171.81 194.412 165.256C196.862 158.917 198.544 151.672 199.042 141.065C199.52 130.433 199.645 127.044 199.645 99.9745C199.645 72.9048 199.52 69.5076 199.042 58.8758C198.544 48.2647 196.862 41.0218 194.412 34.6842C191.858 28.1286 188.452 22.5677 182.908 17.0275C177.363 11.4831 171.819 8.07763 165.257 5.53388C158.903 3.06904 151.656 1.38913 141.045 0.903221C130.413 0.41939 127.028 0.301025 99.9504 0.301025H99.9815ZM91.04 18.263C93.6938 18.2589 96.6549 18.263 99.9815 18.263C126.594 18.263 129.749 18.3585 140.258 18.8361C149.976 19.2805 155.25 20.9044 158.764 22.2686C163.415 24.0752 166.732 26.2348 170.218 29.7234C173.707 33.2119 175.866 36.5344 177.677 41.1858C179.041 44.6952 180.667 49.9695 181.109 59.6877C181.587 70.1949 181.691 73.3513 181.691 99.9516C181.691 126.552 181.587 129.708 181.109 140.216C180.665 149.934 179.041 155.208 177.677 158.717C175.87 163.369 173.707 166.681 170.218 170.167C166.73 173.656 163.417 175.816 158.764 177.622C155.255 178.993 149.976 180.612 140.258 181.057C129.751 181.534 126.594 181.638 99.9815 181.638C73.3667 181.638 70.2124 181.534 59.7052 181.057C49.987 180.608 44.7126 178.984 41.1971 177.62C36.5456 175.813 33.2232 173.654 29.7346 170.165C26.246 166.677 24.0865 163.363 22.2757 158.709C20.9114 155.2 19.2855 149.925 18.8432 140.207C18.3656 129.7 18.2701 126.544 18.2701 99.9267C18.2701 73.3097 18.3656 70.17 18.8432 59.6628C19.2876 49.9446 20.9114 44.6702 22.2757 41.1568C24.0823 36.5053 26.246 33.1829 29.7346 29.6943C33.2232 26.2057 36.5456 24.0461 41.1971 22.2354C44.7106 20.8649 49.987 19.2452 59.7052 18.7988C68.9001 18.3835 72.4634 18.2589 91.04 18.2381V18.263ZM153.186 34.813C146.583 34.813 141.226 40.1642 141.226 46.7696C141.226 53.373 146.583 58.7304 153.186 58.7304C159.79 58.7304 165.147 53.373 165.147 46.7696C165.147 40.1662 159.79 34.8088 153.186 34.8088V34.813ZM99.9815 48.788C71.7137 48.788 48.7951 71.7067 48.7951 99.9745C48.7951 128.242 71.7137 151.151 99.9815 151.151C128.249 151.151 151.16 128.242 151.16 99.9745C151.16 71.7067 128.247 48.788 99.9795 48.788H99.9815ZM99.9815 66.75C118.33 66.75 133.206 81.6242 133.206 99.9745C133.206 118.323 118.33 133.199 99.9815 133.199C81.6313 133.199 66.7571 118.323 66.7571 99.9745C66.7571 81.6242 81.6313 66.75 99.9815 66.75V66.75Z')
+        path#ins2(d='M99.9815 0.301025C72.9119 0.301025 69.5147 0.41939 58.8829 0.903221C48.2718 1.38913 41.0289 3.06904 34.6913 5.53388C28.1357 8.07971 22.5747 11.4852 17.0346 17.0275C11.4902 22.5677 8.08471 28.1286 5.53058 34.6821C3.05951 41.0218 1.37752 48.2668 0.899921 58.8737C0.424396 69.5055 0.299805 72.9048 0.299805 99.9745C0.299805 127.044 0.420245 130.431 0.902 141.063C1.38998 151.674 3.0699 158.917 5.53266 165.254C8.08056 171.81 11.4861 177.371 17.0283 182.911C22.5664 188.455 28.1274 191.869 34.6788 194.415C41.0206 196.88 48.2656 198.56 58.8746 199.046C69.5064 199.53 72.9015 199.648 99.9691 199.648C127.041 199.648 130.428 199.53 141.059 199.046C151.671 198.56 158.922 196.88 165.264 194.415C171.817 191.869 177.37 188.455 182.908 182.911C188.452 177.371 191.858 171.81 194.412 165.256C196.862 158.917 198.544 151.672 199.042 141.065C199.52 130.433 199.645 127.044 199.645 99.9745C199.645 72.9048 199.52 69.5076 199.042 58.8758C198.544 48.2647 196.862 41.0218 194.412 34.6842C191.858 28.1286 188.452 22.5677 182.908 17.0275C177.363 11.4831 171.819 8.07763 165.257 5.53388C158.903 3.06904 151.656 1.38913 141.045 0.903221C130.413 0.41939 127.028 0.301025 99.9504 0.301025H99.9815ZM91.04 18.263C93.6938 18.2589 96.6549 18.263 99.9815 18.263C126.594 18.263 129.749 18.3585 140.258 18.8361C149.976 19.2805 155.25 20.9044 158.764 22.2686C163.415 24.0752 166.732 26.2348 170.218 29.7234C173.707 33.2119 175.866 36.5344 177.677 41.1858C179.041 44.6952 180.667 49.9695 181.109 59.6877C181.587 70.1949 181.691 73.3513 181.691 99.9516C181.691 126.552 181.587 129.708 181.109 140.216C180.665 149.934 179.041 155.208 177.677 158.717C175.87 163.369 173.707 166.681 170.218 170.167C166.73 173.656 163.417 175.816 158.764 177.622C155.255 178.993 149.976 180.612 140.258 181.057C129.751 181.534 126.594 181.638 99.9815 181.638C73.3667 181.638 70.2124 181.534 59.7052 181.057C49.987 180.608 44.7126 178.984 41.1971 177.62C36.5456 175.813 33.2232 173.654 29.7346 170.165C26.246 166.677 24.0865 163.363 22.2757 158.709C20.9114 155.2 19.2855 149.925 18.8432 140.207C18.3656 129.7 18.2701 126.544 18.2701 99.9267C18.2701 73.3097 18.3656 70.17 18.8432 59.6628C19.2876 49.9446 20.9114 44.6702 22.2757 41.1568C24.0823 36.5053 26.246 33.1829 29.7346 29.6943C33.2232 26.2057 36.5456 24.0461 41.1971 22.2354C44.7106 20.8649 49.987 19.2452 59.7052 18.7988C68.9001 18.3835 72.4634 18.2589 91.04 18.2381V18.263ZM153.186 34.813C146.583 34.813 141.226 40.1642 141.226 46.7696C141.226 53.373 146.583 58.7304 153.186 58.7304C159.79 58.7304 165.147 53.373 165.147 46.7696C165.147 40.1662 159.79 34.8088 153.186 34.8088V34.813ZM99.9815 48.788C71.7137 48.788 48.7951 71.7067 48.7951 99.9745C48.7951 128.242 71.7137 151.151 99.9815 151.151C128.249 151.151 151.16 128.242 151.16 99.9745C151.16 71.7067 128.247 48.788 99.9795 48.788H99.9815ZM99.9815 66.75C118.33 66.75 133.206 81.6242 133.206 99.9745C133.206 118.323 118.33 133.199 99.9815 133.199C81.6313 133.199 66.7571 118.323 66.7571 99.9745C66.7571 81.6242 81.6313 66.75 99.9815 66.75V66.75Z')
+        defs
+          radialgradient#paint0_radial(cx='0' cy='0' r='1' gradientunits='userSpaceOnUse' gradienttransform='translate(-33.0915 14.6616) rotate(78.6808) scale(88.3134 364.028)')
+            stop(stop-color='#3771C8')
+            stop(offset='0.13' stop-color='#3771C8')
+            stop(offset='1' stop-color='#6600FF' stop-opacity='0')
+          radialgradient#paint1_radial(cx='0' cy='0' r='1' gradientunits='userSpaceOnUse' gradienttransform='translate(53.2511 215.002) rotate(-90) scale(197.568 183.752)')
+            stop(stop-color='#FFDD55')
+            stop(offset='0.1' stop-color='#FFDD55')
+            stop(offset='0.5' stop-color='#FF543E')
+            stop(offset='1' stop-color='#C837AB')
+
+    a(href='https://open.spotify.com/playlist/51vW6iFXSVbVFcIWL3rois?si=-Ht1OnoLTGS3VxzCS-6S0w')
+      svg#spotify(width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg")
+        path(d="M30.4998 0C13.6556 0 0 13.6556 0 30.5002C0 47.3455 13.6556 61 30.4998 61C47.3459 61 61 47.3455 61 30.5002C61 13.6566 47.3459 0.00145686 30.4995 0.00145686L30.4998 0ZM44.4868 43.99C43.9405 44.886 42.7678 45.1701 41.8718 44.6201C34.7108 40.2459 25.6959 39.2552 15.0793 41.6809C14.0562 41.914 13.0364 41.273 12.8033 40.2495C12.5692 39.2261 13.2076 38.2063 14.2332 37.9732C25.8514 35.3188 35.8172 36.4617 43.8568 41.3749C44.7527 41.9249 45.0368 43.094 44.4868 43.99ZM48.22 35.6852C47.5316 36.804 46.0675 37.1573 44.9494 36.469C36.7511 31.4297 24.254 29.9702 14.557 32.9138C13.2994 33.2937 11.9711 32.585 11.5894 31.3295C11.2107 30.0719 11.9198 28.7461 13.1752 28.3637C24.2518 25.0027 38.0222 26.6307 47.4369 32.4163C48.555 33.1047 48.9083 34.5685 48.22 35.6852ZM48.5405 27.0372C38.7105 21.1985 22.4924 20.6616 13.1071 23.5101C11.6 23.9672 10.0062 23.1164 9.54952 21.6093C9.0928 20.1014 9.94286 18.5087 11.451 18.0505C22.2247 14.7799 40.1346 15.4118 51.4519 22.1305C52.8104 22.935 53.2548 24.6858 52.4499 26.0396C51.6486 27.3952 49.8931 27.8421 48.5419 27.0372H48.5405Z")
+
+.second.text-center
+  a.cta(href='img/resume.pdf' target='_blank') View Resume
+ 
+.container-fluid.third
+  
+  .mirrow
+    .row
+      .col
+        img#cy(src='img/cy.webp')
+      .col#gorman
+        h3 Cy Gorman
+        h4 
+          | Designer, University Lecturer, and the founder of Nurobodi
+    p “As the director and founder of digital wellbeing startup Nurobodi and a digital media subject designer and lecturer at RMIT Melbourne, I'm always on the lookout for talented thinkers and designers. Yuan excelled in his work at RMIT and it was a pleasure to mentor him towards recognizing and developing his skills. What particularly interested me about Yuan was his genuine understanding for empathetic design thinking within an immersive digital sphere. Yuan was very receptive in being directed to hone his technical flair for production design towards creating elegant projects that showcased the skills for a future-focus on interactive and empathetic digital design. I can see him going on to achieve big things in AI, Interactive Design or HCI design but really anything Yuan sets his heart and mind to will flourish.”
+
+    a.nurobodi(href='https://nurobodi.com/' target='_blank') View NUROBODI
+
+footer
+    small &copy; 2021 Yuan Hou, All Rights Reserved
+
+
+
+      
+script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
+script(src='js/dark-mode-switch.min.js')
+script(src='bootstrap/bootstrap.bundle.js')
+script(src='js/index.js')
+
+ 
+
+
+
+
+ 
+
