@@ -1,0 +1,131 @@
+[data-theme="dark"] {
+  background-color: #272727 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #272727 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #1c1c1e !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .navbar{
+  background-color: #272727 !important;
+  color: #e5e5e5;
+}
+
+[data-theme="dark"] .navbar-toggler{
+  background-color: #fafbfb !important;
+  color: #e5e5e5;
+}
+
+
+[data-theme="dark"] .navbar h4{
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] h3{
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] h5{
+  color: #e5e5e5!important;
+}
+
+[data-theme="dark"] h5:hover{
+  color: #9E00FF !important;
+}
+
+
+[data-theme="dark"] .slider.round{
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .des{
+  color: #898989 !important;
+}
+
+
+
+
+[data-theme="dark"] .slider:before {
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] .third {
+  background-color: #272831 !important;
+}
+
+
+[data-theme="dark"] h4 {
+  color: #8E8E9A !important;
+}
+
+
+
+[data-theme="dark"] .second h3 {
+  color: #8E8E9A !important;
+}
+
+
+
+[data-theme="dark"] .fifth .col-sm {
+  color: #8E8E9A !important;
+  background-color: #333 !important;
+}
+
+
+
+[data-theme="dark"] .sixth {
+  background-color: #272831 !important;
+}
+
+
+[data-theme="dark"] .seventh {
+  background-color: #272831 !important;
+}
+
+
+
+[data-theme="dark"] .eighth {
+  background-color: #272831 !important;
+}
+
+
+
+
+[data-theme="dark"] .borders h3 {
+  color: #FFa928 !important;
+}
+
+
+
+[data-theme="dark"] .nineth {
+  background-color: #272727 !important;
+}
+
+
+
+[data-theme="dark"] .tenth {
+  background-color: #272727 !important;
+}
+
+
+
+
+[data-theme="dark"] #figma:link {
+  text-decoration: none !important;
+}
+
+
+[data-theme="dark"] footer {
+  background-color: #272727!important;
+  color: #e5e5e5 !important;
+}
+
