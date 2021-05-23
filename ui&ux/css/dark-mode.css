@@ -1,0 +1,96 @@
+[data-theme="dark"] {
+  background-color: #272727 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #272727 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #1c1c1e !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .navbar{
+  background-color: #272727 !important;
+  color: #e5e5e5;
+}
+
+[data-theme="dark"] .navbar-toggler{
+  background-color: #fafbfb !important;
+  color: #e5e5e5;
+}
+
+
+
+[data-theme="dark"] .navbar h4{
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] h3{
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] h5{
+  color: #e5e5e5!important;
+}
+
+[data-theme="dark"] h5:hover{
+  color: #9E00FF !important;
+}
+
+
+
+
+
+[data-theme="dark"] .red_circle{
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .slider.round{
+  box-shadow: none !important;
+}
+
+
+
+[data-theme="dark"] .third .button h4:hover{
+  color: goldenrod !important;
+}
+
+[data-theme="dark"] .third .box h4{
+  color: #e5e5e5 !important;
+}
+
+
+[data-theme="dark"] .slider:before {
+  color: #e5e5e5 !important;
+}
+
+
+[data-theme="dark"] h1{
+  color: #e5e5e5 !important;
+}
+
+
+
+[data-theme="dark"] p{
+  color: #e5e5e5 !important;
+}
+
+
+
+[data-theme="dark"] #loading{
+  background-color: #272727 !important;
+}
+
+
+
+[data-theme="dark"] footer {
+  color: #e5e5e5 !important;
+
+  background-color: #272727 !important; 
+}
