@@ -1,0 +1,94 @@
+[data-theme="dark"] {
+  background-color: #272727 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #272727 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #1c1c1e !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .navbar{
+  background-color: #272727 !important;
+  color: #e5e5e5;
+}
+
+[data-theme="dark"] .navbar-toggler{
+  background-color: #fafbfb !important;
+  color: #e5e5e5;
+}
+
+
+[data-theme="dark"] .navbar h4{
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] h3{
+  color: #e5e5e5 !important;
+}
+
+[data-theme="dark"] h5{
+  color: #e5e5e5!important;
+}
+
+[data-theme="dark"] h5:hover{
+  color: #9E00FF !important;
+}
+
+
+
+
+[data-theme="dark"] .slider.round{
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .third {
+ background-color: #272727;
+}
+
+[data-theme="dark"] .fourth {
+  background-color: #272831;
+ }
+
+
+
+ [data-theme="dark"] .fourth h4 {
+  color: #9E00FF;
+ }
+
+
+
+
+[data-theme="dark"] .slider:before {
+  color: #e5e5e5 !important;
+}
+
+ 
+
+[data-theme="dark"] .second .button h4:hover{
+  fill: #9E00FF !important;
+}
+
+
+[data-theme="dark"] .second h4{
+  fill: #e5e5e5 !important;
+}
+
+
+
+
+[data-theme="dark"] #loading{
+  background-color: #272727 !important;
+}
+
+[data-theme="dark"] footer {
+  background-color: #272727!important;
+  color: #e5e5e5 !important;
+}

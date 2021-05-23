@@ -1,0 +1,328 @@
+$white: #e5e5e5 
+$black: #272727
+$main_colour: #9E00FF
+$grey: #e5e5e5
+
+$bootstrap-sm: 576px
+$bootstrap-md: 768px
+$bootstrap-lg: 992px
+$bootstrap-xl: 1200px
+
+
+*
+  transition: 0.1s
+  text-decoration: none
+  h4, h5 
+    font-family: Josefin Sans
+  p
+    font-family: sans-serif
+
+
+  
+html,body
+  width: 100%
+  height: 100%
+  padding: 0px
+  margin: 0px
+  scroll-behavior: smooth
+
+.container-fluid
+  padding-top: 7vw
+  padding-bottom: 7vw
+
+.navbar
+  position: fixed
+  background-color: $white
+  padding-top: 25px
+  padding-bottom: 15px
+  border: 0
+  border-radius: 0
+  margin-bottom: 0
+  font-size: 15px
+  li 
+    padding: 5px
+
+
+.container
+  align-items: center
+  justify-items: center
+
+
+.custom-control.custom-switch.sun.sticky-top
+  position: relative
+  align-items: center 
+  justify-items: center
+
+
+
+.switch 
+  position: relative
+  display: inline-block
+  width: 65px
+  height: 34px
+  float:right
+
+.switch input 
+  display: none
+
+.slider 
+  position: absolute
+  cursor: pointer
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  -webkit-transition: .4s
+  transition: .4s
+  border: solid 1px black
+
+
+.slider:before 
+  position: absolute
+  content: ""
+  height: 25px
+  width: 25px
+  left: 4px
+  bottom: 3px
+  background-color: $black
+  -webkit-transition: .4s
+  transition: .4s
+
+input.danger:checked + .slider 
+  background-color: $main_colour
+  border: solid 1px $white
+
+input:focus + .slider 
+  box-shadow: 0 0 1px #2196F3
+
+input:checked + .slider:before 
+  -webkit-transform: translateX(30px)
+  -ms-transform: translateX(30px)
+  transform: translateX(30px)
+
+.slider.round 
+  border-radius: 100px
+  cursor: pointer
+  box-shadow: 0.1vw 0.3vh 5vw $grey
+
+
+.slider.round:before 
+  border-radius: 50%
+
+h4 
+  color: $black
+
+
+h5
+  color: $black
+  &:hover
+    color: $main_colour
+
+
+a.navbar-brand
+  #icon, #icon, h4, .custom-control.custom-switch.sun.sticky-top
+    display: inline
+
+  #icon
+    position: relative
+    width: 20%
+    top: -0.1rem
+
+
+body
+  line-height: 1.8
+  background-color: $white
+
+
+
+
+.first
+  padding: 0
+  margin-top: 5rem
+#one
+  width: 100%
+  padding: 0
+  margin: 0
+
+
+#sound:link, #game:link, #graphic:link, #ui:link
+  text-decoration: none !important 
+
+
+.second
+  padding: 0 
+  margin: 0
+  padding-top: 2rem
+  
+  h4
+    font-family: Montserrat
+  .row
+    margin-top: 2%
+    margin-left: 5%
+    margin-right: 5%
+
+    @media only screen and (max-width: 600px)
+      margin-left: 0
+      margin-right: 0
+
+  .carousel-item 
+    img 
+      width: 100%
+      object-fit: cover
+      
+      @media (min-width: $bootstrap-sm) 
+        height: 350px
+
+
+  .carousel-control-prev-icon, .carousel-control-next-icon 
+    height: 100px
+    width: 100px
+    outline: black
+    background-size: 100%, 100%
+    border-radius: 50%
+   
+    background-image: none
+
+
+.carousel-control-next-icon:after
+  content: '>'
+  font-size: 55px
+  color: $black
+
+
+.carousel-control-prev-icon:after 
+  content: '<'
+  font-size: 55px
+  color: $black
+
+
+#gallery 
+  img 
+    height: 100%
+    object-fit: cover
+    cursor: pointer
+    
+    @media (min-width: $bootstrap-sm) 
+      height: 35vw
+    
+    @media (min-width: $bootstrap-lg) 
+      height: 18vw
+
+
+
+.third
+  padding-left: 0
+  padding-right: 0
+  margin-bottom: 0
+  margin-top: -7%
+
+
+
+.fourth
+  margin-top: -6%
+  padding: 0
+  img
+    width: 100%
+
+
+
+.fifth
+  padding: 0
+  margin: 0
+  img
+    width: 100%
+
+.apex
+  position: relative
+  margin-top: 5%
+  h4 
+    font-family: Montserrat
+
+
+.sixth
+  margin-top: -3%
+  display: flex
+  justify-content: center
+  align-items: center
+  
+  @media only screen and (max-width: 600px)
+    padding-left: 0
+    padding-right: 0 
+  .carousel
+    
+    width: 50%
+    @media only screen and (max-width: 600px)
+      width: 100%
+
+#loading
+  position: fixed
+  height: 100% 
+  width: 100%
+  left: 0 
+  top: 0
+  overflow: hidden 
+  z-index: 10
+  background-color: $white
+  transition: opacity .5s linear 
+
+
+@keyframes pulse
+  from
+    opacity: 1
+    transform: scale(1)
+
+  to
+    opacity: .25
+    transform: scale(0.75)
+
+#completed
+  z-index: 1
+
+
+.spinner-box
+  position: absolute
+  top: 50% 
+  left: 50% 
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  display: flex 
+  jusitfy-content: center 
+  align-items: center  
+  background-color: tarnsparent
+  margin: 0
+
+
+.pulse-container
+  width: 120px 
+  display: flex 
+  justify-content: space-between
+  align-items: center
+
+
+.pulse-bubble
+  width: 20px
+  height: 20px 
+  border-radius: 50% 
+  background-color: $main_colour
+
+
+
+.pulse-bubble-1
+  animation: pulse .4s ease 0s infinite alternate
+
+
+
+.pulse-bubble-2
+  animation: pulse .4s ease .2s infinite alternate
+
+
+.pulse-bubble-3
+  animation: pulse .4s ease .4s infinite alternate 
+
+
+footer
+  position: relative 
+  text-align: center
+  background-color: $white
+  z-index: 999
+  color: $black
