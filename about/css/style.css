@@ -131,11 +131,11 @@ body {
     font-size: 1.4rem;
     font-family: Questrial;
     font-weight: 300;
-    text-align: left; }
+    text-align: justify; }
     @media only screen and (max-width: 600px) {
       .first p {
         font-size: 18px;
-        text-align: left; } }
+        text-align: justify; } }
   .first .svg {
     display: inline-block; }
   .first svg {
@@ -243,6 +243,7 @@ a.cta:link {
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 1.3vw;
+    text-align: justify;
     font-style: italic; }
   .third .mirrow {
     margin-top: 10vw;
