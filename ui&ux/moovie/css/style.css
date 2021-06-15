@@ -170,6 +170,7 @@ body {
   .second .des {
     color: #8e8e9a;
     font-size: 1.2rem;
+    text-align: left;
     font-family: Questrial; }
     @media only screen and (max-width: 600px) {
       .second .des {
