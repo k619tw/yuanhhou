@@ -11,11 +11,23 @@
 html, body {
   padding: 0px;
   margin: 0px;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  text-align: justify; }
 
 .container-fluid {
   padding-top: 7vw;
   padding-bottom: 7vw; }
+
+.embed-responsive {
+  margin-top: 3vw;
+  position: relative;
+  left: 25%;
+  width: 50%; }
+  @media only screen and (max-width: 600px) {
+    .embed-responsive {
+      margin-top: 5vw;
+      width: 100%;
+      left: 0%; } }
 
 .navbar {
   position: fixed;
@@ -111,14 +123,323 @@ body {
   background-color: #e5e5e5; }
 
 .first {
-  padding: 0;
-  margin-top: 25%; }
-  .first img {
-    width: 100vw;
-    height: auto; }
+  position: relative;
+  margin: 0;
+  padding: 0; }
   @media only screen and (max-width: 600px) {
     .first {
-      margin-top: 20rem; } }
+      margin-top: 20%; } }
+  .first video {
+    width: 100%;
+    z-index: -99; }
+  .first .content {
+    position: relative;
+    margin-top: -33%;
+    z-index: 1; }
+    @media only screen and (max-width: 600px) {
+      .first .content {
+        margin-top: -40%; } }
+    .first .content h1 {
+      color: #e5e5e5;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 5rem; }
+      @media only screen and (max-width: 600px) {
+        .first .content h1 {
+          font-size: 3rem; } }
+    .first .content h2 {
+      color: #46A98B;
+      font-family: Josefin sans;
+      font-weight: 400;
+      font-size: 2rem; }
+      @media only screen and (max-width: 600px) {
+        .first .content h2 {
+          font-size: 1rem; } }
+
+.second {
+  margin: 0;
+  padding: 0;
+  margin-top: 25%; }
+  .second .title {
+    display: inline;
+    color: #46A98B;
+    font-family: Montserrat; }
+  .second h3 {
+    margin-top: 2%;
+    font-size: 1.3rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 30px;
+    font-family: Questrial;
+    text-align: justify; }
+    @media only screen and (max-width: 600px) {
+      .second h3 {
+        margin-top: 3vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+        line-height: 3.5vh; } }
+  .second .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    @media only screen and (max-width: 600px) {
+      .second .box {
+        margin-top: 3vw;
+        margin-left: 3vw;
+        display: inline-block; } }
+  .second .section {
+    display: inline-block;
+    padding: 3vw; }
+  .second .subtitle {
+    font-size: 1.3rem;
+    font-family: Questrial; }
+    @media only screen and (max-width: 600px) {
+      .second .subtitle {
+        font-size: 20px; } }
+  .second .des {
+    color: #8e8e9a;
+    font-size: 1.2rem;
+    font-family: Questrial; }
+    @media only screen and (max-width: 600px) {
+      .second .des {
+        font-size: 18px; } }
+
+.third {
+  background-color: #272831; }
+  .third h3 {
+    position: relative;
+    margin-left: 20%;
+    color: #46A98B;
+    font-family: Montserrat;
+    font-size: 2rem;
+    line-height: 3.5vw; }
+    .third h3 img {
+      width: 2.8%; }
+    @media only screen and (max-width: 600px) {
+      .third h3 {
+        line-height: 30px;
+        margin-left: 1%;
+        font-size: 20px; }
+        .third h3 img {
+          width: 8%; } }
+  .third .carousel {
+    margin-top: 3vw;
+    position: relative;
+    left: 25%;
+    width: 50%; }
+    @media only screen and (max-width: 600px) {
+      .third .carousel {
+        margin-top: 5vw;
+        width: 100%;
+        left: 0%; } }
+  .third h4 {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #e5e5e5;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px; }
+    @media only screen and (max-width: 600px) {
+      .third h4 {
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .third li {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #46A98B;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px; }
+    @media only screen and (max-width: 600px) {
+      .third li {
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .third img {
+    position: relative;
+    width: 100%;
+    height: auto; }
+
+.fourth {
+  background-color: #272727; }
+  .fourth h3 {
+    position: relative;
+    margin-left: 20%;
+    color: #46A98B;
+    font-family: Montserrat;
+    font-size: 2rem;
+    line-height: 3.5vw; }
+    .fourth h3 img {
+      width: 2.8%; }
+    @media only screen and (max-width: 600px) {
+      .fourth h3 {
+        line-height: 30px;
+        margin-left: 1%;
+        font-size: 20px; }
+        .fourth h3 img {
+          width: 8%; } }
+  .fourth .carousel {
+    margin-top: 3vw;
+    position: relative;
+    left: 25%;
+    width: 50%; }
+    @media only screen and (max-width: 600px) {
+      .fourth .carousel {
+        margin-top: 5vw;
+        width: 100%;
+        left: 0%; } }
+  .fourth h4 {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #e5e5e5;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px; }
+    @media only screen and (max-width: 600px) {
+      .fourth h4 {
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .fourth li {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #46A98B;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px; }
+    @media only screen and (max-width: 600px) {
+      .fourth li {
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .fourth .card {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #898989;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px;
+    background-color: #333333;
+    border: soli1 1px black; }
+    @media only screen and (max-width: 600px) {
+      .fourth .card {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .fourth .btn-link {
+    color: #46A98B;
+    font-size: 1.3rem; }
+  .fourth img {
+    position: relative;
+    width: 100%;
+    height: auto; }
+
+.fifth {
+  background-color: #e5e5e5; }
+  .fifth h3 {
+    position: relative;
+    margin-left: 20%;
+    color: #46A98B;
+    font-family: Montserrat;
+    font-size: 2rem;
+    line-height: 3.5vw; }
+    .fifth h3 img {
+      width: 2.8%; }
+    @media only screen and (max-width: 600px) {
+      .fifth h3 {
+        line-height: 30px;
+        margin-left: 1%;
+        font-size: 20px; }
+        .fifth h3 img {
+          width: 8%; } }
+  .fifth .carousel {
+    margin-top: 3vw;
+    position: relative;
+    left: 25%;
+    width: 50%; }
+    @media only screen and (max-width: 600px) {
+      .fifth .carousel {
+        margin-top: 5vw;
+        width: 100%;
+        left: 0%; } }
+  .fifth h4 {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #272727;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px; }
+    @media only screen and (max-width: 600px) {
+      .fifth h4 {
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .fifth li {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #46A98B;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px; }
+    @media only screen and (max-width: 600px) {
+      .fifth li {
+        margin-top: 5vh;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .fifth .card {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #898989;
+    font-family: Questrial;
+    font-size: 1.3rem;
+    line-height: 30px;
+    background-color: #333333;
+    border: soli1 1px black; }
+    @media only screen and (max-width: 600px) {
+      .fifth .card {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 3.5vh; } }
+  .fifth .btn-link {
+    color: #46A98B;
+    font-size: 1.3rem; }
+  .fifth img {
+    position: relative;
+    width: 100%;
+    height: auto; }
 
 footer {
   position: relative;

@@ -30,8 +30,9 @@
   color: #e5e5e5 !important;
 }
 
-[data-theme="dark"] h3{
-  color: #e5e5e5 !important;
+
+[data-theme="dark"] h4{
+  color: #8E8E9A!important;
 }
 
 [data-theme="dark"] h5{
@@ -59,9 +60,22 @@
 }
 
 
+[data-theme="dark"] .third {
+  background-color: #272831!important;
+}
 
+[data-theme="dark"] .fourth {
+  background-color: #272727!important;
+}
 
+[data-theme="dark"] .fifth {
+  background-color: #272831 !important;
+}
 
+[data-theme="dark"] .card{
+  background-color: #333;
+  color: #898989 !important;
+}
 
 
 
