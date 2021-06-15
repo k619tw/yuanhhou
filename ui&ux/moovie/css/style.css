@@ -11,6 +11,7 @@
 html, body {
   padding: 0px;
   margin: 0px;
+  text-align: justify;
   scroll-behavior: smooth; }
 
 .container-fluid {
@@ -134,6 +135,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     line-height: 30px;
+    text-align: justify;
     font-family: Questrial; }
     @media only screen and (max-width: 600px) {
       .second h3 {
@@ -174,6 +176,7 @@ body {
         font-size: 18px; } }
 
 .third {
+  text-align: justify;
   background-color: #272727; }
   .third h3 {
     position: relative;
@@ -222,6 +225,7 @@ body {
     height: auto; }
 
 .fourth {
+  text-align: justify;
   position: relative;
   margin-top: -6vw;
   margin: 0;
