@@ -2,7 +2,8 @@
   -webkit-transition: 0.1s;
   -o-transition: 0.1s;
   transition: 0.1s;
-  text-decoration: none; }
+  text-align: justify;
+  text-decoration: none;}
   * h4, * h5 {
     font-family: Josefin Sans; }
   * p {
