@@ -30,6 +30,11 @@
   color: #e5e5e5 !important;
 }
 
+[data-theme="dark"] .second h3{
+  color: #8E8E9A!important;
+}
+
+
 
 [data-theme="dark"] h4{
   color: #8E8E9A!important;
