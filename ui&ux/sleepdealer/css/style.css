@@ -236,6 +236,7 @@ img#typo {
     margin-left: 20%;
     margin-right: 20%;
     color: #181134;
+    text-align: left;
     font-family: Questrial;
     font-size: 1.3rem;
     line-height: 30px; }
@@ -310,6 +311,7 @@ img#typo {
     color: #181134;
     font-family: Questrial;
     font-size: 1.3rem;
+    text-align: left;
     line-height: 30px; }
     @media only screen and (max-width: 600px) {
       .fourth li {
@@ -382,6 +384,7 @@ img#typo {
     color: #181134;
     font-family: Questrial;
     font-size: 1.3rem;
+    text-align: left;
     line-height: 30px; }
     @media only screen and (max-width: 600px) {
       .fifth li {
@@ -517,6 +520,7 @@ img#typo {
     color: #181134;
     font-family: Questrial;
     font-size: 1.3rem;
+    text-align: left;
     line-height: 30px; }
     @media only screen and (max-width: 600px) {
       .sixth li {
@@ -524,6 +528,7 @@ img#typo {
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
+        text-align: left;
         line-height: 3.5vh; } }
   .sixth img#ia {
     position: relative;
