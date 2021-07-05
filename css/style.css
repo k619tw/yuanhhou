@@ -129,7 +129,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("/img/bgg.webp");
+  background-image: url("img/background.webp");
   background-repeat: no-repeat;
   background-position: center 3rem; }
   @media only screen and (max-width: 600px) {
