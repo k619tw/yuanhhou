@@ -135,6 +135,8 @@ body {
     @media only screen and (max-width: 600px) {
       .first p {
         font-size: 18px;
+        margin-left: 0%;
+        margin-right: 0%;
         text-align: justify; } }
   .first .svg {
     display: inline-block; }
@@ -286,8 +288,8 @@ a.cta:link {
   .third a.nurobodi {
     font-size: 1.5vw;
     padding: 1vw;
-    color: #e5e5e5;
-    background-color: #9E00FF;
+    color: #272727;
+    background-color: #e5e5e5;
     font-family: Fredoka One;
     border-radius: 5px;
     display: -webkit-box;
@@ -309,7 +311,7 @@ a.cta:link {
     margin-right: 30%; }
     .third a.nurobodi:hover {
       color: #9E00FF;
-      background-color: #e5e5e5; }
+       }
     @media only screen and (max-width: 600px) {
       .third a.nurobodi {
         padding: 2vw;
