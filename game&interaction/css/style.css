@@ -90,8 +90,8 @@ input:checked + .slider:before {
 .slider.round {
   border-radius: 100px;
   cursor: pointer;
-  -webkit-box-shadow: 0.1vw 0.3vh 5vw #e5e5e5;
-  box-shadow: 0.1vw 0.3vh 5vw #e5e5e5; }
+  -webkit-box-shadow: 0.1vw 0.3% 5vw #e5e5e5;
+  box-shadow: 0.1vw 0.3% 5vw #e5e5e5; }
 
 .slider.round:before {
   border-radius: 50%; }
@@ -169,16 +169,15 @@ body {
     font-size: 1.3rem;
     margin-left: 15%;
     margin-right: 15%;
-    line-height: 30px;
+    line-height: 180%;
     font-family: Questrial;
     text-align: justify; }
     @media only screen and (max-width: 600px) {
       .second h3 {
-        margin-top: 3vh;
         margin-left: 5%;
         margin-right: 5%;
         font-size: 18px;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .second .box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -203,7 +202,6 @@ body {
   .second .des {
     color: #8e8e9a;
     font-size: 1.2rem;
-    text-align: left;
     font-family: Questrial; }
     @media only screen and (max-width: 600px) {
       .second .des {
@@ -217,12 +215,12 @@ body {
     color: #46A98B;
     font-family: Montserrat;
     font-size: 2rem;
-    line-height: 3.5vw; }
+    line-height: 180%; }
     .third h3 img {
       width: 2.8%; }
     @media only screen and (max-width: 600px) {
       .third h3 {
-        line-height: 30px;
+        line-height: 180%;
         margin-left: 1%;
         font-size: 20px; }
         .third h3 img {
@@ -245,14 +243,13 @@ body {
     color: #e5e5e5;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px; }
+    line-height: 180%; }
     @media only screen and (max-width: 600px) {
       .third h4 {
-        margin-top: 5vh;
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .third li {
     position: relative;
     margin-top: 3%;
@@ -261,14 +258,13 @@ body {
     color: #46A98B;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px; }
+    line-height: 180%; }
     @media only screen and (max-width: 600px) {
       .third li {
-        margin-top: 5vh;
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .third img {
     position: relative;
     width: 100%;
@@ -282,12 +278,12 @@ body {
     color: #46A98B;
     font-family: Montserrat;
     font-size: 2rem;
-    line-height: 3.5vw; }
+    line-height: 180%; }
     .fourth h3 img {
       width: 2.8%; }
     @media only screen and (max-width: 600px) {
       .fourth h3 {
-        line-height: 30px;
+        line-height: 180%;
         margin-left: 1%;
         font-size: 20px; }
         .fourth h3 img {
@@ -310,14 +306,13 @@ body {
     color: #e5e5e5;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px; }
+    line-height: 180%; }
     @media only screen and (max-width: 600px) {
       .fourth h4 {
-        margin-top: 5vh;
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .fourth li {
     position: relative;
     margin-top: 3%;
@@ -326,14 +321,13 @@ body {
     color: #46A98B;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px; }
+    line-height: 180%; }
     @media only screen and (max-width: 600px) {
       .fourth li {
-        margin-top: 5vh;
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .fourth .card {
     position: relative;
     margin-left: 20%;
@@ -341,7 +335,7 @@ body {
     color: #898989;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px;
+    line-height: 180%;
     background-color: #333333;
     border: soli1 1px black; }
     @media only screen and (max-width: 600px) {
@@ -349,7 +343,7 @@ body {
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .fourth .btn-link {
     color: #46A98B;
     font-size: 1.3rem; }
@@ -366,12 +360,12 @@ body {
     color: #46A98B;
     font-family: Montserrat;
     font-size: 2rem;
-    line-height: 3.5vw; }
+    line-height: 180%; }
     .fifth h3 img {
       width: 2.8%; }
     @media only screen and (max-width: 600px) {
       .fifth h3 {
-        line-height: 30px;
+        line-height: 180%;
         margin-left: 1%;
         font-size: 20px; }
         .fifth h3 img {
@@ -394,14 +388,13 @@ body {
     color: #272727;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px; }
+    line-height: 180%; }
     @media only screen and (max-width: 600px) {
       .fifth h4 {
-        margin-top: 5vh;
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .fifth li {
     position: relative;
     margin-top: 3%;
@@ -410,14 +403,13 @@ body {
     color: #46A98B;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px; }
+    line-height: 180%; }
     @media only screen and (max-width: 600px) {
       .fifth li {
-        margin-top: 5vh;
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .fifth .card {
     position: relative;
     margin-left: 20%;
@@ -425,7 +417,7 @@ body {
     color: #898989;
     font-family: Questrial;
     font-size: 1.3rem;
-    line-height: 30px;
+    line-height: 180%;
     background-color: #333333;
     border: soli1 1px black; }
     @media only screen and (max-width: 600px) {
@@ -433,7 +425,7 @@ body {
         font-size: 18px;
         margin-left: 0;
         margin-right: 0;
-        line-height: 3.5vh; } }
+        line-height: 180%; } }
   .fifth .btn-link {
     color: #46A98B;
     font-size: 1.3rem; }
