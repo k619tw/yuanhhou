@@ -118,7 +118,7 @@ body {
     height: auto; }
   @media only screen and (max-width: 600px) {
     .first {
-      margin-top: 5rem; } }
+      margin-top: 5.5rem; } }
 
 .second {
   margin: 0;
