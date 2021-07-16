@@ -192,6 +192,7 @@ body {
         display: inline-block; } }
   .second .section {
     display: inline-block;
+    text-align: left;
     padding: 3vw; }
   .second .subtitle {
     font-size: 1.3rem;
